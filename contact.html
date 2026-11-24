@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact | LUXORA</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- LOADER -->
+<div class="loader" id="loader">
+    <div class="loader-content">
+        <span>LUXORA</span>
+        <small>BEYOND EXPECTATIONS</small>
+    </div>
+</div>
+
+
+<!-- HEADER -->
+<header class="header">
+
+    <a href="index.html" class="logo">LUXORA<span>.</span></a>
+
+    <nav class="nav" id="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="rooms.html">Rooms</a>
+        <a href="dining.html">Dining</a>
+        <a href="experiences.html">Experiences</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html" class="active">Contact</a>
+        <a href="#contact-form" class="nav-booking">RESERVE NOW</a>    </nav>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+    </button>
+
+</header>
+
+
+<!-- HERO -->
+<section class="contact-hero">
+
+    <div class="contact-hero-bg"></div>
+
+    <div class="contact-hero-content">
+
+        <span class="eyebrow">WE WOULD LOVE TO HEAR FROM YOU</span>
+
+        <h1>Let's Create<br><i>Something Beautiful.</i></h1>
+
+        <p>
+            Your extraordinary escape begins with a simple conversation.
+            Let us help you plan something unforgettable.
+        </p>
+
+        <a href="#contact-form" class="btn btn-primary">
+            GET IN TOUCH
+        </a>
+
+    </div>
+
+    <div class="contact-hero-bottom">
+        <span>YOUR JOURNEY STARTS HERE</span>
+        <span>MALDIVES · INDIAN OCEAN</span>
+    </div>
+
+</section>
+
+
+<!-- CONTACT INTRO -->
+<section class="contact-intro section-padding">
+
+    <span class="eyebrow">CONNECT WITH LUXORA</span>
+
+    <h2>We Are Here<br>
+        <i>For You.</i>
+    </h2>
+
+    <p>
+        Whether you are planning a romantic escape,
+        a special celebration or simply dreaming
+        of the ocean, our team is here to help.
+    </p>
+
+</section>
+
+
+<!-- CONTACT DETAILS -->
+<section class="contact-details">
+
+    <div class="contact-detail-card">
+
+        <span class="contact-icon">✉</span>
+
+        <span class="eyebrow">EMAIL US</span>
+
+        <h3>Write to Us</h3>
+
+        <a href="mailto:hello@luxora.example">
+            hello@luxora.example
+        </a>
+
+    </div>
+
+
+    <div class="contact-detail-card">
+
+        <span class="contact-icon">⌖</span>
+
+        <span class="eyebrow">FIND US</span>
+
+        <h3>Our Location</h3>
+
+        <p>Maldives, Indian Ocean</p>
+
+    </div>
+
+
+    <div class="contact-detail-card">
+
+        <span class="contact-icon">◷</span>
+
+        <span class="eyebrow">AVAILABILITY</span>
+
+        <h3>Always Here</h3>
+
+        <p>Guest Assistance · 24/7</p>
+
+    </div>
+
+</section>
+
+
+<!-- CONTACT FORM -->
+<section class="contact-form-section section-padding" id="contact-form">
+
+    <div class="contact-form-grid">
+
+        <div class="contact-form-content">
+
+            <span class="eyebrow">LET'S TALK ABOUT YOUR JOURNEY</span>
+
+            <h2>Make Your<br>
+                <i>Dream Stay</i><br>
+                A Reality.
+            </h2>
+
+            <p>
+                Tell us a little about your plans.
+                Our team would be delighted to help
+                you create a truly memorable experience.
+            </p>
+
+            <div class="contact-note">
+                <span>✦</span>
+                <p>
+                    Every great journey begins with a conversation.
+                </p>
+            </div>
+
+        </div>
+
+
+        <form class="luxora-contact-form" id="luxoraContactForm">
+
+            <div class="form-heading">
+                <span class="eyebrow">SEND AN ENQUIRY</span>
+                <h3>Tell Us About Your Plans</h3>
+            </div>
+
+
+            <div class="form-row">
+
+                <div class="form-group">
+                    <label for="firstName">First Name</label>
+
+                    <input
+                        type="text"
+                        id="firstName"
+                        name="firstName"
+                        placeholder="Your first name"
+                        required>
+                </div>
+
+                <div class="form-group">
+                    <label for="lastName">Last Name</label>
+
+                    <input
+                        type="text"
+                        id="lastName"
+                        name="lastName"
+                        placeholder="Your last name"
+                        required>
+                </div>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="email">Email Address</label>
+
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="your@email.com"
+                    required>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="subject">What Are You Interested In?</label>
+
+                <select id="subject" name="subject" required>
+
+                    <option value="" disabled selected>
+                        Select an enquiry type
+                    </option>
+
+                    <option value="Room Reservation">Room Reservation</option>
+                    <option value="Dining Experience">Dining Experience</option>
+                    <option value="Spa & Wellness">Spa & Wellness</option>
+                    <option value="Special Celebration">Special Celebration</option>
+                    <option value="Other Enquiry">Other Enquiry</option>
+
+                </select>
+
+            </div>
+
+
+            <div class="form-row">
+
+                <div class="form-group">
+                    <label for="arrival">Arrival Date</label>
+
+                    <input
+                        type="date"
+                        id="arrival"
+                        name="arrival">
+                </div>
+
+                <div class="form-group">
+                    <label for="guests">Number of Guests</label>
+
+                    <select id="guests" name="guests">
+
+                        <option value="1">1 Guest</option>
+                        <option value="2" selected>2 Guests</option>
+                        <option value="3">3 Guests</option>
+                        <option value="4">4 Guests</option>
+                        <option value="5+">5+ Guests</option>
+
+                    </select>
+                </div>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="message">Your Message</label>
+
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    placeholder="Tell us more about your dream getaway..."
+                    required></textarea>
+
+            </div>
+
+
+            <button type="submit" class="btn btn-primary form-submit">
+                SEND YOUR ENQUIRY <span>→</span>
+            </button>
+
+            <p class="form-disclaimer">
+                This is a demonstration contact form.
+            </p>
+
+            <div id="formMessage" class="form-message"></div>
+
+        </form>
+
+    </div>
+
+</section>
+
+
+<!-- LOCATION -->
+<section class="contact-location">
+
+    <div class="location-image"></div>
+
+    <div class="location-content">
+
+        <span class="eyebrow">SOMEWHERE IN PARADISE</span>
+
+        <h2>Find Your Way<br>
+            <i>To Us.</i>
+        </h2>
+
+        <p>
+            Surrounded by the endless blue of the Indian Ocean,
+            LUXORA represents the beauty of island living.
+        </p>
+
+        <span class="location-address">
+            MALDIVES · INDIAN OCEAN
+        </span>
+
+    </div>
+
+</section>
+
+
+<!-- FINAL CTA -->
+<section class="contact-final">
+
+    <span class="eyebrow">YOUR NEXT CHAPTER AWAITS</span>
+
+    <h2>Paradise Is<br>
+        <i>Calling.</i>
+    </h2>
+
+    <p>
+        Make room for extraordinary moments.
+    </p>
+
+    <a href="#contact-form" class="btn btn-primary">
+        START YOUR JOURNEY
+    </a>
+
+</section>
+
+
+<!-- FOOTER -->
+<footer class="footer">
+
+    <div class="footer-top">
+
+        <div class="footer-brand">
+            <a href="index.html" class="logo">
+                LUXORA<span>.</span>
+            </a>
+
+            <p>
+                Luxury beyond expectations.<br>
+                Memories beyond imagination.
+            </p>
+        </div>
+
+        <div class="footer-links">
+            <h4>EXPLORE</h4>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="rooms.html">Rooms</a>
+            <a href="experiences.html">Experiences</a>
+        </div>
+
+        <div class="footer-links">
+            <h4>DISCOVER</h4>
+            <a href="dining.html">Dining</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <div class="footer-contact">
+            <h4>GET IN TOUCH</h4>
+            <p>Maldives · Indian Ocean</p>
+            <a href="mailto:hello@luxora.example">
+                hello@luxora.example
+            </a>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© <span id="year"></span> LUXORA. All Rights Reserved.</p>
+        <span>DESIGNED FOR EXTRAORDINARY EXPERIENCES</span>
+    </div>
+
+</footer>
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
